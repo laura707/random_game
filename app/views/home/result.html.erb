@@ -1,0 +1,13 @@
+<h1>결과창</h1>
+<h3>오늘 <%=@your_name%>님의 <strong class="lucky">행운</strong>의 <strong class="color">컬러</strong>는?</h3>
+<br />
+
+<%= @my_color.each do |i|%>
+<p class="img"><%= image_tag i %></p>
+<p><%=i%></p>
+<%end%>
+
+<br />
+<a href="index.html">메뉴로 돌아가기</a></p>
+
+
